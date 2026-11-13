@@ -1,3 +1,4 @@
+import { asset } from '../../utils/asset';
 import React from 'react';
 import { Package, CheckCircle, Clock, FolderTree, Plus, ArrowRight, ExternalLink, Image } from 'lucide-react';
 import { DashboardStats, Product, Category } from '../../types';

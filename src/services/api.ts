@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset';
 import { Product, Category, SiteContent, Inquiry, DashboardStats } from '../types';
 
 const API_BASE = '/api';
@@ -5,7 +6,7 @@ const API_BASE = '/api';
 // Lee datos estáticos de /data/ cuando no hay servidor (por ejemplo, en Netlify)
 async function loadStatic<T>(file: string, fallback: T): Promise<T> {
   try {
-    const res = await fetch(`/data/${file}`);
+    const res = await fetch(asset(`/data/${file}`));
     if (!res.ok) return fallback;
     return await res.json();
   } catch {

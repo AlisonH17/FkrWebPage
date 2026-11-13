@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset';
 import React, { useState, useEffect } from 'react';
 import { MapPin, ExternalLink, Navigation, Building2, Clock, CheckCircle2, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../locales/LanguageContext';

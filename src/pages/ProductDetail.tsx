@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset';
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Download, ShieldCheck, FileText, Check, MessageCircle } from 'lucide-react';
 import { Product, Category } from '../types';
@@ -128,7 +129,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
             {/* Main Stage Image */}
             <div className="relative h-80 sm:h-[460px] bg-[#F4F5F7] border border-[#E5E7EB] flex items-center justify-center p-6 overflow-hidden">
               <img
-                src={currentImage}
+                src={asset(currentImage)}
                 alt={productName}
                 className="w-full h-full object-contain transition-all duration-300"
                 onError={(e) => {
@@ -166,7 +167,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
                     }`}
                   >
                     <img
-                      src={img}
+                      src={asset(img)}
                       alt={`Vista ${idx + 1}`}
                       className="w-full h-full object-contain"
                     />

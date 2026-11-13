@@ -1,3 +1,4 @@
+import { asset } from '../../utils/asset';
 import React, { useRef, useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../../locales/LanguageContext';

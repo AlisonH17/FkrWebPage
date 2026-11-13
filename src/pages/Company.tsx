@@ -1,3 +1,4 @@
+import { asset } from '../utils/asset';
 import React, { useState, useEffect } from 'react';
 import { 
   ShieldCheck, 
@@ -362,7 +363,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
               >
                 <div className="relative aspect-[16/10] bg-[#F4F5F7] overflow-hidden">
                   <img
-                    src={item.imageUrl}
+                    src={asset(item.imageUrl)}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -413,7 +414,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
 
             <div className="relative aspect-[16/10] bg-[#101317]">
               <img
-                src={selectedGalleryItem.imageUrl}
+                src={asset(selectedGalleryItem.imageUrl)}
                 alt={selectedGalleryItem.title}
                 className="w-full h-full object-contain"
               />

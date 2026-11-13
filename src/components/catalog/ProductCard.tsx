@@ -1,3 +1,4 @@
+import { asset } from '../../utils/asset';
 import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { Product, Category } from '../../types';
@@ -31,7 +32,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         className="relative aspect-[960/720] bg-white overflow-hidden cursor-pointer flex items-center justify-center border-b border-[#E5E7EB]"
       >
         <img
-          src={product.primaryImage}
+          src={asset(product.primaryImage)}
           alt={localize(product.name)}
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
           loading="lazy"

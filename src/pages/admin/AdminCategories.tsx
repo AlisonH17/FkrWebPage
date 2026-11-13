@@ -1,3 +1,4 @@
+import { asset } from '../../utils/asset';
 import React, { useState } from 'react';
 import { Plus, Edit2, Trash2, CheckCircle, X } from 'lucide-react';
 import { Category, Product } from '../../types';

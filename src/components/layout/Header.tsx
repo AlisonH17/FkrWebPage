@@ -1,3 +1,4 @@
+import { asset } from '../../utils/asset';
 import React, { useState } from 'react';
 import { Menu, X, Shield, Sun, Moon } from 'lucide-react';
 import { useLanguage } from '../../locales/LanguageContext';

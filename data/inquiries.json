@@ -1,0 +1,24 @@
+[
+  {
+    "id": "inq-101",
+    "createdAt": "2026-11-04T15:48:38.212Z",
+    "name": "Carlos Menéndez",
+    "email": "carlos.m@empresa.cu",
+    "phone": "+53 52881144",
+    "subject": "Grupos electrógenos",
+    "productName": "Grupo Electrógeno HIMOINSA HSY-25",
+    "message": "Buenas tardes, requerimos cotización de un generador HSY-25 con montaje en azotea en el municipio Playa.",
+    "status": "nuevo"
+  },
+  {
+    "id": "inq-102",
+    "createdAt": "2026-11-02T20:48:38.212Z",
+    "name": "Dra. Beatriz Santos",
+    "email": "beatriz.clinica@gmail.com",
+    "phone": "+53 53123456",
+    "subject": "Sistemas solares",
+    "productName": "Sistema Solar Híbrido ROSEN",
+    "message": "Interesada en el sistema híbrido ROSEN para clínica odontológica con respaldo de batería de litio.",
+    "status": "en_proceso"
+  }
+]

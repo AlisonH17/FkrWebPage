@@ -1,0 +1,6 @@
+{
+  "summary":  "Plan de implementación para la reorganización visual y estructural del sitio web de FKR SURL:\n- Inclusión de franja roja inferior en el menú superior para delimitarlo del contenido.\n- Resaltado distintivo de la página/sección activa en el menú de navegación.\n- Eliminación del color verde de WhatsApp y sustitución por estilo outline minimalista en blanco y rojo.\n- Reordenamiento estratégico de la página de inicio (Hero -> Soluciones -> Servicios -> Equipos destacados -> Ubicación).\n- Actualización del formato de imagen en las tarjetas de soluciones a dimensiones horizontales 970x720.\n- Limpieza y reestructuración de la jerarquía visual de la información en todo el sitio web.",
+  "updatedAt":  "2026-11-10T20:26:15.938097148Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

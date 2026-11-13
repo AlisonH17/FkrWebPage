@@ -1,0 +1,466 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================================================
+   EUROSTILE NEXT LT PRO - LIGHT TYPOGRAPHY SETUP
+   Loaded locally via @font-face from /assets/fonts/
+   Applies to ALL elements across the site, without exception.
+   ========================================================================= */
+
+@font-face {
+  font-family: 'EurostileNextLTPro-Light';
+  src: url('/assets/fonts/EurostileNextLTPro-Light.woff2') format('woff2'),
+       url('/assets/fonts/EurostileNextLTPro-Light.woff') format('woff'),
+       url('/assets/fonts/EurostileNextLTPro-Light.ttf') format('truetype'),
+       url('/assets/fonts/EurostileNextLTPro-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EurostileNextLTPro-Light';
+  src: url('/assets/fonts/EurostileNextLTPro-Light.woff2') format('woff2'),
+       url('/assets/fonts/EurostileNextLTPro-Light.woff') format('woff'),
+       url('/assets/fonts/EurostileNextLTPro-Light.ttf') format('truetype'),
+       url('/assets/fonts/EurostileNextLTPro-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EurostileNextLTPro-Light';
+  src: url('/assets/fonts/EurostileNextLTPro-Light.woff2') format('woff2'),
+       url('/assets/fonts/EurostileNextLTPro-Light.woff') format('woff'),
+       url('/assets/fonts/EurostileNextLTPro-Light.ttf') format('truetype'),
+       url('/assets/fonts/EurostileNextLTPro-Light.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'EurostileNextLTPro-Light';
+  src: url('/assets/fonts/EurostileNextLTPro-Light.woff2') format('woff2'),
+       url('/assets/fonts/EurostileNextLTPro-Light.woff') format('woff'),
+       url('/assets/fonts/EurostileNextLTPro-Light.ttf') format('truetype'),
+       url('/assets/fonts/EurostileNextLTPro-Light.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    /* Moderately scaled root font-size for balanced readability */
+    font-size: 16px;
+
+    /* Corporate identity & colors */
+    --fkr-red: #D20A11;
+    --fkr-red-dark: #A60008;
+
+    /* Dark panels: Sophisticated industrial bluish-gray sampled directly from imagen.png */
+    --fkr-dark-panel: #2C353F;
+    --fkr-dark-panel-deep: #222931;
+    --fkr-dark-panel-hover: #37424E;
+    --fkr-dark-panel-border: #414D5C;
+    --fkr-dark-text-muted: #CBD5E1;
+
+    /* Light surfaces & general structure */
+    --fkr-gray-dark: #1A1C1C;
+    --fkr-gray-mid: #374151;
+    --fkr-gray-light: #F4F5F7;
+    --fkr-surface: #F9F9F9;
+    --fkr-border: #D1D5DB;
+
+    /* Universal font */
+    --fkr-font-family: 'EurostileNextLTPro-Light', 'Eurostile', system-ui, -apple-system, sans-serif;
+  }
+
+  /* =========================================================================
+     DARK MODE THEME SYSTEM (Utilizing Existing CSS Custom Properties)
+     ========================================================================= */
+  html.dark, :root.dark {
+    /* Corporate accent */
+    --fkr-red: #D20A11;
+    --fkr-red-dark: #A60008;
+
+    /* Inverted surfaces using existing industrial properties */
+    --fkr-surface: #121519;
+    --fkr-gray-light: #1D232A;
+    --fkr-gray-dark: #F8FAFC;
+    --fkr-gray-mid: #CBD5E1;
+    --fkr-border: #2D3743;
+
+    /* Deep panels refined for dark mode */
+    --fkr-dark-panel: #1D232A;
+    --fkr-dark-panel-deep: #13171B;
+    --fkr-dark-panel-hover: #27303A;
+    --fkr-dark-panel-border: #384553;
+    --fkr-dark-text-muted: #94A3B8;
+  }
+
+  html {
+    font-size: 15px;
+    font-family: var(--fkr-font-family);
+  }
+
+  @media (min-width: 640px) {
+    html {
+      font-size: 15.5px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  body, input, button, textarea, select, option, table, th, td, nav, a, p, span, div, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fkr-font-family) !important;
+  }
+
+  body {
+    font-size: 0.98rem;
+    line-height: 1.58;
+    background-color: var(--fkr-surface);
+    color: var(--fkr-gray-dark);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-headline {
+    font-family: var(--fkr-font-family) !important;
+    letter-spacing: -0.01em;
+    word-break: break-word;
+  }
+
+  .font-mono-num {
+    font-family: var(--fkr-font-family) !important;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Dark mode base body & header */
+  html.dark body {
+    background-color: var(--fkr-surface);
+    color: var(--fkr-gray-dark);
+  }
+
+  html.dark header {
+    background-color: rgba(29, 35, 42, 0.96);
+    border-color: var(--fkr-border);
+  }
+
+  html.dark input,
+  html.dark textarea,
+  html.dark select {
+    background-color: var(--fkr-dark-panel-deep);
+    border-color: var(--fkr-border);
+    color: var(--fkr-gray-dark);
+  }
+
+  html.dark input::placeholder,
+  html.dark textarea::placeholder {
+    color: var(--fkr-dark-text-muted);
+  }
+}
+
+@layer utilities {
+  /* Dark mode surface overrides using :where(html.dark) to preserve hover/group-hover specificity */
+  :where(html.dark) .bg-white,
+  :where(html.dark) .bg-\[\#FFFFFF\] {
+    background-color: var(--fkr-dark-panel);
+  }
+
+  :where(html.dark) .bg-\[\#FFFFFF\]\/98,
+  :where(html.dark) .bg-\[\#FFFFFF\]\/95,
+  :where(html.dark) .bg-white\/95 {
+    background-color: rgba(29, 35, 42, 0.96);
+  }
+
+  :where(html.dark) .bg-\[\#FDFDFD\] {
+    background-color: #161B21;
+  }
+
+  :where(html.dark) .bg-\[\#F9F9F9\],
+  :where(html.dark) .bg-\[\#F4F5F7\],
+  :where(html.dark) .bg-\[\#F9FAFB\],
+  :where(html.dark) .bg-\[\#F8FAFC\],
+  :where(html.dark) .bg-\[\#F3F4F6\] {
+    background-color: var(--fkr-surface);
+  }
+
+  :where(html.dark) .bg-\[\#E5E7EB\],
+  :where(html.dark) .bg-\[\#E2E8F0\] {
+    background-color: #242C36;
+  }
+
+  :where(html.dark) .bg-\[\#FFF0F1\] {
+    background-color: rgba(210, 10, 17, 0.16);
+  }
+
+  :where(html.dark) .bg-emerald-50 {
+    background-color: rgba(16, 185, 129, 0.14);
+  }
+
+  :where(html.dark) .bg-amber-50 {
+    background-color: rgba(245, 158, 11, 0.14);
+  }
+
+  :where(html.dark) .bg-red-50 {
+    background-color: rgba(239, 68, 68, 0.14);
+  }
+
+  :where(html.dark) .bg-red-100 {
+    background-color: rgba(239, 68, 68, 0.22);
+  }
+
+  :where(html.dark) .bg-\[\#222931\] {
+    background-color: #151A21;
+  }
+
+  :where(html.dark) .bg-\[\#2C353F\] {
+    background-color: #252E39;
+  }
+
+  /* Dark mode hover surfaces */
+  :where(html.dark) .hover\:bg-\[\#F9FAFB\]:hover {
+    background-color: var(--fkr-dark-panel-hover);
+  }
+
+  :where(html.dark) .hover\:bg-\[\#E5E7EB\]:hover {
+    background-color: #323D4A;
+  }
+
+  :where(html.dark) .hover\:bg-red-50:hover {
+    background-color: rgba(239, 68, 68, 0.22);
+  }
+
+  :where(html.dark) .hover\:bg-emerald-100:hover {
+    background-color: rgba(16, 185, 129, 0.25);
+  }
+
+  :where(html.dark) .hover\:bg-amber-100:hover {
+    background-color: rgba(245, 158, 11, 0.25);
+  }
+
+  /* Dark mode borders & dividers */
+  :where(html.dark) .border-\[\#414D5C\],
+  :where(html.dark) .border-\[\#2C353F\],
+  :where(html.dark) .border-\[\#2F3131\] {
+    border-color: var(--fkr-dark-panel-border);
+  }
+
+  :where(html.dark) .border-\[\#E5E7EB\],
+  :where(html.dark) .border-\[\#D1D5DB\],
+  :where(html.dark) .border-\[\#F3F4F6\],
+  :where(html.dark) .border-\[\#E2E8F0\],
+  :where(html.dark) .border-\[\#CBD5E1\],
+  :where(html.dark) .divide-\[\#E5E7EB\] > :not(:last-child) {
+    border-color: var(--fkr-border);
+  }
+
+  :where(html.dark) .border-red-200,
+  :where(html.dark) .border-red-300 {
+    border-color: rgba(239, 68, 68, 0.4);
+  }
+
+  :where(html.dark) .border-emerald-200,
+  :where(html.dark) .border-emerald-300,
+  :where(html.dark) .border-emerald-400 {
+    border-color: rgba(16, 185, 129, 0.4);
+  }
+
+  :where(html.dark) .border-amber-300,
+  :where(html.dark) .border-amber-400 {
+    border-color: rgba(245, 158, 11, 0.4);
+  }
+
+  /* Dark mode text colors & readability */
+  :where(html.dark) .text-\[\#101317\],
+  :where(html.dark) .text-\[\#1A1C1C\],
+  :where(html.dark) .text-\[\#1F242C\],
+  :where(html.dark) .text-\[\#0F172A\] {
+    color: var(--fkr-gray-dark);
+  }
+
+  :where(html.dark) .text-\[\#374151\],
+  :where(html.dark) .text-\[\#4B5563\],
+  :where(html.dark) .text-\[\#334155\],
+  :where(html.dark) .text-\[\#475569\],
+  :where(html.dark) .text-\[\#64748B\],
+  :where(html.dark) .text-\[\#6B7280\] {
+    color: var(--fkr-gray-mid);
+  }
+
+  :where(html.dark) .text-\[\#9CA3AF\] {
+    color: var(--fkr-dark-text-muted);
+  }
+
+  :where(html.dark) .text-\[\#15803D\],
+  :where(html.dark) .text-emerald-900,
+  :where(html.dark) .text-emerald-800,
+  :where(html.dark) .text-emerald-700,
+  :where(html.dark) .text-emerald-600 {
+    color: #4ADE80;
+  }
+
+  :where(html.dark) .bg-\[\#15803D\] {
+    background-color: #22C55E;
+  }
+
+  :where(html.dark) .text-\[\#B45309\],
+  :where(html.dark) .text-amber-900 {
+    color: #FBBF24;
+  }
+
+  :where(html.dark) .bg-\[\#B45309\] {
+    background-color: #F59E0B;
+  }
+
+  :where(html.dark) .text-red-800,
+  :where(html.dark) .text-red-700,
+  :where(html.dark) .text-red-600 {
+    color: #F87171;
+  }
+
+  /* Brighten crimson and social accents on dark surfaces for high WCAG contrast */
+  :where(html.dark) .text-\[\#D20A11\],
+  :where(html.dark) .group:hover .group-hover\:text-\[\#D20A11\] {
+    color: #F87171;
+  }
+
+  :where(html.dark) .text-\[\#1877F2\],
+  :where(html.dark) .group:hover .group-hover\:text-\[\#1877F2\] {
+    color: #60A5FA;
+  }
+
+  :where(html.dark) .text-\[\#E1306C\],
+  :where(html.dark) .group:hover .group-hover\:text-\[\#E1306C\] {
+    color: #F472B6;
+  }
+
+  :where(html.dark) .hover\:text-\[\#101317\]:hover,
+  :where(html.dark) .hover\:text-\[\#1A1C1C\]:hover {
+    color: #FFFFFF;
+  }
+
+  :where(html.dark) .hover\:text-red-700:hover,
+  :where(html.dark) .hover\:text-red-800:hover {
+    color: #FCA5A5;
+  }
+
+  :where(html.dark) .shadow-sm,
+  :where(html.dark) .shadow-md,
+  :where(html.dark) .shadow-lg {
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+  }
+}
+
+/* Industrial sharp geometry utilities with comfortable touch/click targets and balanced text */
+.fkr-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  font-family: var(--fkr-font-family) !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.88rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0;
+  transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.fkr-btn-primary {
+  background-color: var(--fkr-red);
+  color: #FFFFFF;
+  border: 1.5px solid var(--fkr-red);
+}
+
+.fkr-btn-primary:hover {
+  background-color: var(--fkr-red-dark);
+  border-color: var(--fkr-red-dark);
+  transform: translateY(-1px);
+}
+
+.fkr-btn-secondary {
+  background-color: var(--fkr-dark-panel);
+  color: #FFFFFF;
+  border: 1.5px solid var(--fkr-dark-panel);
+}
+
+.fkr-btn-secondary:hover {
+  background-color: var(--fkr-dark-panel-hover);
+  border-color: var(--fkr-dark-panel-hover);
+  transform: translateY(-1px);
+}
+
+.fkr-btn-outline {
+  background-color: transparent;
+  color: #1A1C1C;
+  border: 1.5px solid #9CA3AF;
+}
+
+.fkr-btn-outline:hover {
+  border-color: var(--fkr-red);
+  color: var(--fkr-red);
+}
+
+html.dark .fkr-btn-outline {
+  color: var(--fkr-gray-dark);
+  border-color: var(--fkr-dark-panel-border);
+}
+
+html.dark .fkr-btn-outline:hover {
+  border-color: #F87171;
+  color: #F87171;
+}
+
+.fkr-btn-outline-dark {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.fkr-btn-outline-dark:hover {
+  border-color: var(--fkr-red);
+  color: #FFFFFF;
+  background-color: rgba(210, 10, 17, 0.25);
+}
+
+/* Bluish-gray panel container class */
+.bg-dark-panel {
+  background-color: var(--fkr-dark-panel);
+}
+
+.border-dark-panel {
+  border-color: var(--fkr-dark-panel-border);
+}
+
+/* Blueprint subtle pattern */
+.bg-blueprint {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+html.dark .bg-blueprint {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.bg-blueprint-dark {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

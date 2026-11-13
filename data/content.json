@@ -1,0 +1,187 @@
+{
+  "company": {
+    "name": "FKR SURL",
+    "activity": {
+      "es": "Soluciones Energéticas en Cuba",
+      "en": "Energy Solutions in Cuba"
+    },
+    "location": "La Lisa, La Habana, Cuba",
+    "whatsapp": "+53 50998801",
+    "instagram": "@fkr_energia_surl",
+    "description": {
+      "es": "FKR SURL es una empresa cubana especializada en soluciones energéticas integrales. Comercializamos e instalamos grupos electrógenos industriales, sistemas solares fotovoltaicos, baterías de alto rendimiento y piezas de repuesto originales, respaldados por un equipo técnico calificado en La Habana.",
+      "en": "FKR SURL is a Cuban company specialized in comprehensive energy solutions. We supply and install industrial diesel generators, solar photovoltaic systems, heavy-duty batteries and original spare parts, backed by certified technical personnel in Havana."
+    },
+    "mission": {
+      "es": "Proveer a negocios, industrias y hogares cubanos de soluciones de energía robustas, confiables y de alta disponibilidad, con acompañamiento técnico continuo desde la selección hasta la postventa.",
+      "en": "To provide Cuban enterprises, businesses, and homes with rugged, reliable, and high-availability power systems, backed by continuous engineering support from selection through after-sales."
+    },
+    "vision": {
+      "es": "Consolidarnos como el referente técnico en suministro, instalación y mantenimiento de equipamiento energético e industrial en el país.",
+      "en": "To consolidate our position as the benchmark technical provider in power equipment supply, installation, and engineering maintenance in Cuba."
+    },
+    "values": [
+      {
+        "title": {
+          "es": "Solidez Técnica",
+          "en": "Technical Rigor"
+        },
+        "desc": {
+          "es": "Equipos industriales de calidad verificada y ensamblados por personal experto.",
+          "en": "Verified industrial-grade equipment assembled by expert engineers."
+        }
+      },
+      {
+        "title": {
+          "es": "Respaldo Postventa",
+          "en": "After-Sales Commitment"
+        },
+        "desc": {
+          "es": "Garantía real, servicio de puesta en marcha y disponibilidad de insumos en Cuba.",
+          "en": "Genuine warranty, commissioning services and local consumables availability."
+        }
+      },
+      {
+        "title": {
+          "es": "Respuesta Rápida",
+          "en": "Rapid Response"
+        },
+        "desc": {
+          "es": "Atención personalizada y directa vía WhatsApp y taller en La Lisa.",
+          "en": "Direct personalized technical care via WhatsApp and workshop in La Lisa."
+        }
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "srv-tecnicos",
+      "name": {
+        "es": "Servicios Técnicos Especializados",
+        "en": "Specialized Technical Services"
+      },
+      "desc": {
+        "es": "Diagnóstico, inspección mecánica y eléctrica de generadores e instalaciones energéticas en toda La Habana.",
+        "en": "Diagnostic, mechanical, and electrical evaluation of power generation systems across Havana."
+      },
+      "icon": "Cpu"
+    },
+    {
+      "id": "srv-montaje",
+      "name": {
+        "es": "Montaje e Instalación",
+        "en": "Assembly & On-Site Installation"
+      },
+      "desc": {
+        "es": "Izaje con grúa pluma, colocación en cubiertas o bases de hormigón y conexión eléctrica certificada.",
+        "en": "Crane hoist rigging, rooftop/slab placement and certified electrical integration."
+      },
+      "icon": "Truck"
+    },
+    {
+      "id": "srv-puesta-marcha",
+      "name": {
+        "es": "Puesta en Marcha",
+        "en": "Commissioning & Startup"
+      },
+      "desc": {
+        "es": "Pruebas de carga, calibración de reguladores de voltaje y parametrización de cuadros automáticos de transferencia (ATS).",
+        "en": "Load testing, AVR calibration and automatic transfer switch (ATS) parameterization."
+      },
+      "icon": "PlayCircle"
+    },
+    {
+      "id": "srv-postventa",
+      "name": {
+        "es": "Garantía Postventa",
+        "en": "After-Sales Warranty"
+      },
+      "desc": {
+        "es": "Soporte directo con técnicos locales, seguimiento operativo y atención continua a nuestros clientes.",
+        "en": "Direct support with local technicians, operational monitoring and continuous warranty care."
+      },
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "srv-mantenimiento",
+      "name": {
+        "es": "Mantenimiento Preventivo y Correctivo",
+        "en": "Maintenance & Service"
+      },
+      "desc": {
+        "es": "Planes periódicos de cambio de fluidos, sustitución de filtros y calibración para garantizar disponibilidad ininterrumpida.",
+        "en": "Scheduled fluid replacement, filter changeovers, and tuning for uninterrupted power availability."
+      },
+      "icon": "Settings"
+    },
+    {
+      "id": "srv-repuestos",
+      "name": {
+        "es": "Piezas de Repuesto Originales",
+        "en": "Original Spare Parts & Oil"
+      },
+      "desc": {
+        "es": "Stock permanente de lubricantes Repsol específicos para generadores, baterías JET JEX95D (12V 95Ah / 710A CCA) y filtros de recambio.",
+        "en": "In-stock inventory of generator-grade Repsol oils, JET JEX95D (12V 95Ah) maintenance-free batteries, and filtration elements."
+      },
+      "icon": "Wrench"
+    }
+  ],
+  "faqs": [
+    {
+      "category": "Equipos",
+      "question": {
+        "es": "¿Qué tipo de grupos electrógenos comercializa FKR SURL?",
+        "en": "What generator sets does FKR SURL provide?"
+      },
+      "answer": {
+        "es": "Comercializamos grupos electrógenos insonorizados diesel para aplicaciones estacionarias de respaldo y continuas, con modelos de la reconocida serie HSY como HSY-25 y configuraciones de potencia adaptadas a proyectos comerciales e industriales.",
+        "en": "We provide soundproof diesel stationary generators from the acclaimed HSY series such as HSY-25, engineered for reliable commercial and industrial backup power."
+      }
+    },
+    {
+      "category": "Instalación",
+      "question": {
+        "es": "¿Incluyen el servicio de transporte e izaje hasta la cubierta?",
+        "en": "Does FKR handle transportation and rooftop hoist rigging?"
+      },
+      "answer": {
+        "es": "Sí, disponemos de camión con grúa pluma y cuadrilla técnica para realizar izajes en edificios residenciales o comerciales en La Habana, asegurando un montaje seguro y reglamentario.",
+        "en": "Yes, our crane-equipped trucks and specialized rigging crews carry out rooftop installations in Havana."
+      }
+    },
+    {
+      "category": "Solar",
+      "question": {
+        "es": "¿Cómo funcionan los sistemas solares fotovoltaicos con inversor ROSEN?",
+        "en": "How do ROSEN solar systems operate?"
+      },
+      "answer": {
+        "es": "Son sistemas híbridos que permiten alimentar cargas críticas desde los paneles solares y acumular excedentes en bancos de baterías de litio de pared, proporcionando energía continua incluso ante caídas de la red eléctrica.",
+        "en": "They are hybrid systems powering critical circuits from solar PV while storing surplus in wall-mounted lithium batteries."
+      }
+    },
+    {
+      "category": "Insumos",
+      "question": {
+        "es": "¿Tienen lubricantes y baterías disponibles para entrega inmediata?",
+        "en": "Are lubricants and batteries in stock for immediate pickup?"
+      },
+      "answer": {
+        "es": "Sí, en nuestro almacén en La Lisa contamos con stock de aceites Repsol Giant y Leader, así como baterías automotrices e industriales JET JEX95D de 12V 95Ah (710A CCA, libres de mantenimiento).",
+        "en": "Yes, our facility in La Lisa stocks generator-grade Repsol oils and JET JEX95D 12V 95Ah (710A CCA) maintenance-free batteries."
+      }
+    },
+    {
+      "category": "Contacto",
+      "question": {
+        "es": "¿Cómo puedo solicitar una cotización o visita técnica?",
+        "en": "How do I request a quote or engineering site survey?"
+      },
+      "answer": {
+        "es": "Puedes contactarnos directamente por WhatsApp al +53 50998801, enviarnos un mensaje a través del formulario web o visitarnos en La Lisa, La Habana.",
+        "en": "You can message us directly on WhatsApp at +53 50998801 or submit the online inquiry form."
+      }
+    }
+  ]
+}

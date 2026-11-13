@@ -1,0 +1,66 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Sede Central en La Lisa",
+    "description": "Fachada principal de FKR SURL en La Lisa con flota de generadores HIMOINSA y punto de atención comercial.",
+    "imageUrl": "/assets/facility/fkr-sede-la-lisa.jpg",
+    "category": "sede",
+    "order": 1
+  },
+  {
+    "id": "gal-2",
+    "title": "Tienda Oficial de Insumos en La Lisa",
+    "description": "Venta directa en mostrador de lubricantes Repsol, baterías JET JEX95D (12V 95Ah / 710A CCA) y filtros de recambio.",
+    "imageUrl": "/assets/facility/fkr-tienda-interior.jpg",
+    "category": "tienda",
+    "order": 2
+  },
+  {
+    "id": "gal-3",
+    "title": "Transporte y Logística Propia",
+    "description": "Medios especializados de transporte y logística adaptada para traslado seguro de plantas eléctricas en La Habana.",
+    "imageUrl": "/assets/facility/fkr-truck-loading-crane.jpg",
+    "category": "logistica",
+    "order": 3
+  },
+  {
+    "id": "gal-4",
+    "title": "Cuadrilla Técnica en Azotea",
+    "description": "Personal técnico especializado de FKR realizando la colocación y montaje de generador diesel en La Habana.",
+    "imageUrl": "/assets/facility/fkr-team-rooftop.jpg",
+    "category": "operaciones",
+    "order": 4
+  },
+  {
+    "id": "gal-5",
+    "title": "Izaje y Posicionamiento de Motor",
+    "description": "Maniobras de precisión mecánica para montaje y mantenimiento mayor de plantas eléctricas.",
+    "imageUrl": "/assets/facility/fkr-engine-hoist.jpg",
+    "category": "mantenimiento",
+    "order": 5
+  },
+  {
+    "id": "gal-6",
+    "title": "Flota de Generadores HIMOINSA Serie HSY",
+    "description": "Equipos de respaldo diesel insonorizados HSY-25 y sistemas estacionarios listos para entrega.",
+    "imageUrl": "/assets/products/himoinsa-hsy25-960x720.webp",
+    "category": "equipos",
+    "order": 6
+  },
+  {
+    "id": "gal-7",
+    "title": "Sistemas Solares Fotovoltaicos ROSEN",
+    "description": "Inversores híbridos y sistemas de acumulación de litio de pared instalados en Cuba.",
+    "imageUrl": "/assets/products/rosen-solar-inverter-system.jpg",
+    "category": "solar",
+    "order": 7
+  },
+  {
+    "id": "gal-8",
+    "title": "Grupos Electrógenos FKR La Lisa",
+    "description": "Generadores diesel insonorizados HIMOINSA con respaldo técnico y postventa directo: 50 99 88 18 / 72 50 19 83.",
+    "imageUrl": "/assets/solutions/sol-transporte-720x540.webp",
+    "category": "institucional",
+    "order": 8
+  }
+]

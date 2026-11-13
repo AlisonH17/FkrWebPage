@@ -1,0 +1,270 @@
+[
+  {
+    "id": "prod-hsy25",
+    "slug": "himoinsa-hsy-25-t5",
+    "category": "cat-generadores",
+    "featured": true,
+    "published": true,
+    "available": true,
+    "name": {
+      "es": "Grupo Electrógeno HIMOINSA HSY-25",
+      "en": "HIMOINSA HSY-25 Generator Set"
+    },
+    "shortDescription": {
+      "es": "Generador diesel insonorizado de alta eficiencia para respaldo continuo y de emergencia en instalaciones comerciales e industriales.",
+      "en": "High-efficiency soundproof diesel generator set for continuous and emergency standby power in commercial and industrial facilities."
+    },
+    "fullDescription": {
+      "es": "El grupo electrógeno HIMOINSA HSY-25 ofrece una potencia fiable y duradera bajo las condiciones de trabajo más exigentes. Diseñado con carrocería insonorizada de alta calidad, acceso simplificado para mantenimiento preventivo y panel de control electrónico avanzado para monitoreo en tiempo real.",
+      "en": "The HIMOINSA HSY-25 generator delivers reliable, long-lasting power under demanding operating conditions. Built with a high-durability soundproof canopy, simplified maintenance access, and advanced digital control panel."
+    },
+    "primaryImage": "/assets/products/himoinsa-hsy25-960x720.webp",
+    "gallery": [
+      "/assets/products/himoinsa-hsy25-960x720.webp",
+      "/assets/facility/fkr-team-rooftop.jpg"
+    ],
+    "technicalSheetUrl": "/assets/specs/HIMOINSA-HSY25-Ficha-Tecnica.pdf",
+    "specifications": [
+      {
+        "key": "Modelo",
+        "value": "HSY-25 Power Generator"
+      },
+      {
+        "key": "Tipo de Insonorización",
+        "value": "Canopy acústico reforzado"
+      },
+      {
+        "key": "Aplicación",
+        "value": "Comercial / Industrial / Respaldo crítico"
+      },
+      {
+        "key": "Refrigeración",
+        "value": "Líquida / Radiador tropicalizado"
+      },
+      {
+        "key": "Garantía FKR",
+        "value": "Garantía oficial y servicio postventa"
+      },
+      {
+        "key": "Servicios Asociados",
+        "value": "Montaje, instalación y puesta en marcha en Cuba"
+      }
+    ],
+    "updatedAt": "2026-11-11T17:15:00.000Z"
+  },
+  {
+    "id": "prod-rosen-inverter",
+    "slug": "sistema-solar-rosen-hibrido",
+    "category": "cat-solar",
+    "featured": true,
+    "published": true,
+    "available": true,
+    "name": {
+      "es": "Sistema Solar Híbrido ROSEN",
+      "en": "ROSEN Hybrid Solar Power System"
+    },
+    "shortDescription": {
+      "es": "Solución integral de energía solar fotovoltaica con inversor híbrido inteligente y sistema de almacenamiento en pared de litio.",
+      "en": "Comprehensive photovoltaic solar solution with intelligent hybrid inverter and wall-mounted lithium energy storage."
+    },
+    "fullDescription": {
+      "es": "Sistema diseñado para autonomía energética con integración a red o funcionamiento aislado. Incorpora pantalla digital LCD, protecciones eléctricas integradas, gestión inteligente de carga y descarga de baterías y compatibilidad con paneles monocristalinos de alta eficiencia.",
+      "en": "Engineered for energy independence with grid-tie or off-grid operation. Features LCD digital screen, integrated electrical circuit protections, intelligent battery charge management and monocrystalline PV compatibility."
+    },
+    "primaryImage": "/assets/products/rosen-solar-960x720.webp",
+    "gallery": [
+      "/assets/products/rosen-solar-960x720.webp",
+      "/assets/products/rosen-solar-inverter-system.jpg"
+    ],
+    "technicalSheetUrl": "/assets/specs/ROSEN-Solar-System-Ficha-Tecnica.pdf",
+    "specifications": [
+      {
+        "key": "Marca",
+        "value": "ROSEN"
+      },
+      {
+        "key": "Tipo de Inversor",
+        "value": "Híbrido de onda senoidal pura"
+      },
+      {
+        "key": "Almacenamiento",
+        "value": "Módulos de pared LiFePO4 de alta densidad"
+      },
+      {
+        "key": "Cuadro Eléctrico",
+        "value": "Gabinete de protecciones AC/DC incluido"
+      },
+      {
+        "key": "Monitoreo",
+        "value": "Display LCD y telemetría de estado"
+      }
+    ],
+    "updatedAt": "2026-11-11T17:15:00.000Z"
+  },
+  {
+    "id": "prod-jet-jex95d",
+    "slug": "bateria-jet-jex95d-12v-95ah",
+    "category": "cat-baterias",
+    "featured": true,
+    "published": true,
+    "available": true,
+    "name": {
+      "es": "Batería JET JEX95D Libre de Mantenimiento (12V 95Ah)",
+      "en": "JET JEX95D Maintenance-Free Battery (12V 95Ah)"
+    },
+    "shortDescription": {
+      "es": "Batería de 12V 95Ah (C20 a 25°C) con 710A de corriente de arranque (CCA), 150 min de reserva y tecnología libre de mantenimiento.",
+      "en": "Maintenance-free 12V 95Ah (C20 25°C) battery with 710A cold cranking amps (CCA) and 150-min reserve capacity."
+    },
+    "fullDescription": {
+      "es": "La batería JET JEX95D ofrece máxima fiabilidad y potencia de arranque para grupos electrógenos, maquinaria pesada y respaldo industrial. Fabricada bajo norma de calidad ISO 9001 (Indústria Brasileira), cuenta con tecnología libre de mantenimiento, capacidad de referencia C20 (25°C) de 95Ah, corriente de arranque en frío CCA (-18°C) de 710A y 150 minutos de reserva de capacidad. Regulador de voltaje operativo entre 13.8V y 14.5V.",
+      "en": "The JET JEX95D battery delivers superior starting reliability for diesel generators, machinery, and industrial standby systems. Built under ISO 9001 standards (Brazilian manufacturing), featuring maintenance-free technology, 95Ah C20 (25°C) reference capacity, 710A cold cranking amps (CCA at -18°C), and 150 minutes of reserve capacity. Operating voltage regulator between 13.8V and 14.5V."
+    },
+    "primaryImage": "/assets/products/bateria-jet-960x720.webp",
+    "gallery": [
+      "/assets/products/bateria-jet-960x720.webp"
+    ],
+    "technicalSheetUrl": "/assets/specs/JET-JEX95D-Ficha-Tecnica.pdf",
+    "specifications": [
+      {
+        "key": "Marca",
+        "value": "JET BATERIAS"
+      },
+      {
+        "key": "Modelo",
+        "value": "JEX95D"
+      },
+      {
+        "key": "Tecnología",
+        "value": "Libre de Mantenimiento"
+      },
+      {
+        "key": "Voltaje Nominal",
+        "value": "12V"
+      },
+      {
+        "key": "Capacidad C20 (25°C)",
+        "value": "95 Ah"
+      },
+      {
+        "key": "Corriente de Arranque CCA (-18°C)",
+        "value": "710 A"
+      },
+      {
+        "key": "Reserva de Capacidad (25°C)",
+        "value": "150 min"
+      },
+      {
+        "key": "Regulador de Voltaje",
+        "value": "13.8V – 14.5V"
+      },
+      {
+        "key": "Certificación",
+        "value": "ISO 9001"
+      },
+      {
+        "key": "Fabricación",
+        "value": "Indústria Brasileira"
+      },
+      {
+        "key": "Aplicación",
+        "value": "Grupos electrógenos, automotriz y respaldo industrial"
+      }
+    ],
+    "updatedAt": "2026-11-11T19:30:00.000Z"
+  },
+  {
+    "id": "prod-repsol-giant-15w40",
+    "slug": "aceite-repsol-giant-7530-15w40",
+    "category": "cat-repuestos",
+    "featured": false,
+    "published": true,
+    "available": true,
+    "name": {
+      "es": "Aceite Repsol Giant 7530 15W-40 (5L)",
+      "en": "Repsol Giant 7530 15W-40 Diesel Motor Oil (5L)"
+    },
+    "shortDescription": {
+      "es": "Lubricante mineral de alto rendimiento para motores diesel pesados sometidos a servicio continuo en generadores.",
+      "en": "Heavy-duty mineral engine oil engineered for diesel power generation running under demanding continuous cycles."
+    },
+    "fullDescription": {
+      "es": "Repsol Giant 7530 es un lubricante Heavy Duty Diesel formulado para prolongar la vida útil de motores en grupos electrógenos industriales. Protección superior contra depósitos, desgaste de cilindros y degradación térmica.",
+      "en": "Repsol Giant 7530 Heavy Duty Diesel lubricant protects power generation engines from carbon deposits, bore polishing and thermal degradation."
+    },
+    "primaryImage": "/assets/products/repsol-oil-giant-leader-driver.jpg",
+    "gallery": [
+      "/assets/products/repsol-oil-giant-leader-driver.jpg",
+      "/assets/products/repsol-leader-neo-5w30.jpg"
+    ],
+    "technicalSheetUrl": "/assets/specs/REPSOL-Giant-15W40-Ficha-Tecnica.pdf",
+    "specifications": [
+      {
+        "key": "Marca",
+        "value": "Repsol"
+      },
+      {
+        "key": "Grado de Viscosidad",
+        "value": "15W-40"
+      },
+      {
+        "key": "Gama",
+        "value": "Heavy Duty Diesel Oil"
+      },
+      {
+        "key": "Presentación",
+        "value": "Envase de 5 Litros"
+      },
+      {
+        "key": "Uso Recomendado",
+        "value": "Mantenimiento preventivo de generadores HIMOINSA"
+      }
+    ],
+    "updatedAt": "2026-11-04T20:48:38.212Z"
+  },
+  {
+    "id": "prod-repsol-leader-neo-5w30",
+    "slug": "aceite-repsol-leader-neo-5w30",
+    "category": "cat-repuestos",
+    "featured": false,
+    "published": true,
+    "available": true,
+    "name": {
+      "es": "Aceite Repsol Leader Neo 5W-30 (4L)",
+      "en": "Repsol Leader Neo 5W-30 Motor Oil (4L)"
+    },
+    "shortDescription": {
+      "es": "Aceite sintético para motores modernos con tecnología Fuel Economy y máxima protección a baja y alta temperatura.",
+      "en": "Synthetic motor oil for modern power units with fuel efficiency formulation and all-temperature protection."
+    },
+    "fullDescription": {
+      "es": "Lubricante sintético Repsol Leader Neo 5W-30 con aprobación para motores de gasolina y diesel ligeros de última generación. Garantiza una lubricación inmediata durante el arranque y disminuye el desgaste mecánico.",
+      "en": "Synthetic lubricant Repsol Leader Neo 5W-30 formulated for clean engine operation, immediate startup lubrication and anti-wear protection."
+    },
+    "primaryImage": "/assets/products/repsol-leader-neo-5w30.jpg",
+    "gallery": [
+      "/assets/products/repsol-leader-neo-5w30.jpg",
+      "/assets/products/repsol-oil-giant-leader-driver.jpg"
+    ],
+    "technicalSheetUrl": "/assets/specs/REPSOL-Leader-Neo-5W30-Ficha-Tecnica.pdf",
+    "specifications": [
+      {
+        "key": "Marca",
+        "value": "Repsol"
+      },
+      {
+        "key": "Grado",
+        "value": "SAE 5W-30"
+      },
+      {
+        "key": "Composición",
+        "value": "Fully Synthetic"
+      },
+      {
+        "key": "Capacidad",
+        "value": "4 Litros"
+      }
+    ],
+    "updatedAt": "2026-11-04T20:48:38.212Z"
+  }
+]

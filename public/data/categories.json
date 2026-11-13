@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cat-generadores",
+    "slug": "grupos-electrogenos",
+    "name": {
+      "es": "Grupos electrógenos",
+      "en": "Generator Sets"
+    },
+    "description": {
+      "es": "Generadores diesel industriales para servicio continuo y emergencia. Equipos insonorizados de alta fiabilidad.",
+      "en": "Industrial diesel generators for continuous and emergency standby power. High reliability soundproof canopies."
+    },
+    "icon": "Zap",
+    "image": "/assets/products/himoinsa-hsy25-960x720.webp",
+    "order": 1,
+    "published": true
+  },
+  {
+    "id": "cat-solar",
+    "slug": "sistemas-solares",
+    "name": {
+      "es": "Kits solares e inversores",
+      "en": "Solar Kits & Inverters"
+    },
+    "description": {
+      "es": "Inversores híbridos, sistemas de acumulación y soluciones fotovoltaicas residenciales y comerciales.",
+      "en": "Hybrid inverters, energy storage units and residential/commercial photovoltaic systems."
+    },
+    "icon": "Sun",
+    "image": "/assets/products/rosen-solar-inverter-system.jpg",
+    "order": 2,
+    "published": true
+  },
+  {
+    "id": "cat-baterias",
+    "slug": "baterias",
+    "name": {
+      "es": "Baterías y acumulación",
+      "en": "Batteries & Storage"
+    },
+    "description": {
+      "es": "Baterías automotrices e industriales JET JEX95D libres de mantenimiento (12V 95Ah / 710A CCA) y respaldo.",
+      "en": "JET JEX95D maintenance-free batteries (12V 95Ah / 710A CCA) and industrial backup solutions."
+    },
+    "icon": "BatteryCharging",
+    "image": "/assets/products/bateria-jet-960x720.webp",
+    "order": 3,
+    "published": true
+  },
+  {
+    "id": "cat-repuestos",
+    "slug": "repuestos",
+    "name": {
+      "es": "Repuestos e insumos",
+      "en": "Spare Parts & Lubricants"
+    },
+    "description": {
+      "es": "Lubricantes de alto rendimiento Repsol, filtros de recambio y componentes mecánicos originales.",
+      "en": "High-performance Repsol lubricants, replacement filters and original mechanical components."
+    },
+    "icon": "Wrench",
+    "image": "/assets/products/repsol-oil-giant-leader-driver.jpg",
+    "order": 4,
+    "published": true
+  }
+]

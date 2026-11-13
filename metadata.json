@@ -1,0 +1,6 @@
+{
+  "name": "FKR SURL - Soluciones Energéticas",
+  "description": "Plataforma web corporativa y catálogo digital industrial de FKR SURL: grupos electrógenos, sistemas solares, baterías, repuestos y panel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

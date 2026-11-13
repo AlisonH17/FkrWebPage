@@ -174,7 +174,7 @@ export const Contact: React.FC = () => {
                 <div className="flex items-center gap-4 sm:gap-5">
                   <div className="w-16 h-16 bg-[#E1306C]/10 flex items-center justify-center shrink-0 p-2.5 transition-transform group-hover:scale-105">
                     <img 
-                      src="/assets/icons/instagram.png" 
+                      src={asset('/assets/icons/instagram.png')} 
                       alt="Instagram FKR SURL" 
                       className="w-full h-full object-contain"
                     />
@@ -209,7 +209,7 @@ export const Contact: React.FC = () => {
                 <div className="flex items-center gap-4 sm:gap-5">
                   <div className="w-16 h-16 bg-[#1877F2]/10 flex items-center justify-center shrink-0 p-3 transition-transform group-hover:scale-105">
                     <img 
-                      src="/assets/icons/facebook.png" 
+                      src={asset('/assets/icons/facebook.png')} 
                       alt="Facebook FKR SURL" 
                       className="w-full h-full object-contain"
                     />
@@ -242,7 +242,7 @@ export const Contact: React.FC = () => {
                 <div className="flex items-center gap-4 sm:gap-5">
                   <div className="w-16 h-16 bg-[#D20A11]/10 flex items-center justify-center shrink-0 p-2.5 transition-transform group-hover:scale-105">
                     <img 
-                      src="/assets/icons/email.png" 
+                      src={asset('/assets/icons/email.png')} 
                       alt="Email Corporativo FKR SURL" 
                       className="w-full h-full object-contain"
                     />

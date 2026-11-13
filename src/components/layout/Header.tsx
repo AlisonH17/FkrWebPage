@@ -41,7 +41,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPath, navigate, isAdminLo
             aria-label="FKR SURL - Inicio"
           >
             <img 
-              src="/assets/logo/logo.png" 
+              src={asset('/assets/logo/logo.png')} 
               alt="FKR SURL" 
               className="h-11 sm:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
             />

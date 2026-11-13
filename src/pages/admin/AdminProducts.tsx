@@ -36,7 +36,7 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({
   const [shortEn, setShortEn] = useState('');
   const [fullEs, setFullEs] = useState('');
   const [fullEn, setFullEn] = useState('');
-  const [primaryImage, setPrimaryImage] = useState('/assets/products/himoinsa-hsy25-forklift.jpg');
+  const [primaryImage, setPrimaryImage] = useState(asset('/assets/products/himoinsa-hsy25-forklift.jpg'));
   const [technicalSheetUrl, setTechnicalSheetUrl] = useState('');
   const [available, setAvailable] = useState(true);
   const [featured, setFeatured] = useState(false);
@@ -57,8 +57,8 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({
     setShortEn('');
     setFullEs('');
     setFullEn('');
-    setPrimaryImage('/assets/products/himoinsa-hsy25-forklift.jpg');
-    setTechnicalSheetUrl('/assets/specs/HIMOINSA-HSY25-Ficha-Tecnica.pdf');
+    setPrimaryImage(asset('/assets/products/himoinsa-hsy25-forklift.jpg'));
+    setTechnicalSheetUrl(asset('/assets/specs/HIMOINSA-HSY25-Ficha-Tecnica.pdf'));
     setAvailable(true);
     setFeatured(false);
     setPublished(true);
@@ -306,7 +306,7 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({
                           alt={p.name.es}
                           className="w-full h-full object-contain"
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                            (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                           }}
                         />
                       </div>
@@ -416,7 +416,7 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({
                     alt="Vista previa de la foto"
                     className="w-full h-full object-contain"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                      (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                     }}
                   />
                 </div>

@@ -33,7 +33,7 @@ export const IndustrialProof: React.FC<IndustrialProofProps> = ({ navigate }) =>
           <div className="md:col-span-7 bg-white border border-[#E5E7EB] hover:border-[#D20A11] transition-all shadow-sm flex flex-col overflow-hidden">
             <div className="relative flex-1 min-h-[360px] sm:min-h-[440px] md:min-h-[500px] bg-[#F4F5F7] overflow-hidden">
               <img
-                src="/assets/facility/fkr-team-rooftop.jpg"
+                src={asset('/assets/facility/fkr-team-rooftop.jpg')}
                 alt="Equipo técnico de FKR SURL en instalación de generador HIMOINSA en azotea con vista a La Habana"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
@@ -65,7 +65,7 @@ export const IndustrialProof: React.FC<IndustrialProofProps> = ({ navigate }) =>
             <div className="bg-white border border-[#E5E7EB] hover:border-[#D20A11] transition-all shadow-sm flex flex-col justify-between">
               <div className="relative h-48 sm:h-52 bg-[#F4F5F7] overflow-hidden">
                 <img
-                  src="/assets/facility/fkr-truck-loading-crane.jpg"
+                  src={asset('/assets/facility/fkr-truck-loading-crane.jpg')}
                   alt="Camión grúa cargando generador HIMOINSA en las instalaciones de FKR SURL"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -88,7 +88,7 @@ export const IndustrialProof: React.FC<IndustrialProofProps> = ({ navigate }) =>
             <div className="bg-white border border-[#E5E7EB] hover:border-[#D20A11] transition-all shadow-sm flex flex-col justify-between">
               <div className="relative h-48 sm:h-52 bg-[#F4F5F7] overflow-hidden">
                 <img
-                  src="/assets/products/rosen-solar-inverter-system.jpg"
+                  src={asset('/assets/products/rosen-solar-inverter-system.jpg')}
                   alt="Instalación de inversores híbridos solares y baterías ROSEN"
                   className="w-full h-full object-cover"
                   loading="lazy"

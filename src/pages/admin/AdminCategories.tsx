@@ -22,7 +22,7 @@ export const AdminCategories: React.FC<AdminCategoriesProps> = ({
   const [descEs, setDescEs] = useState('');
   const [descEn, setDescEn] = useState('');
   const [icon, setIcon] = useState('Zap');
-  const [image, setImage] = useState('/assets/products/himoinsa-hsy25-960x720.webp');
+  const [image, setImage] = useState(asset('/assets/products/himoinsa-hsy25-960x720.webp'));
   const [order, setOrder] = useState(1);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -36,7 +36,7 @@ export const AdminCategories: React.FC<AdminCategoriesProps> = ({
     setDescEs('');
     setDescEn('');
     setIcon('Zap');
-    setImage('/assets/products/himoinsa-hsy25-960x720.webp');
+    setImage(asset('/assets/products/himoinsa-hsy25-960x720.webp'));
     setOrder(categories.length + 1);
     setError(null);
     setIsModalOpen(true);

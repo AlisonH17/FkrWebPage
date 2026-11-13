@@ -42,7 +42,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       title: 'Sede Central y Tienda en La Lisa',
       subtitle: 'Instalaciones centrales de FKR SURL en La Lisa con taller, patio logístico y flota de generadores HIMOINSA',
       slogan: 'Disponibilidad de repuestos y servicio postventa en La Lisa',
-      image: '/assets/facility/fkr-sede-la-lisa.jpg',
+      image: asset('/assets/facility/fkr-sede-la-lisa.jpg'),
       badge: 'SEDE CENTRAL LA LISA',
     },
     {
@@ -50,7 +50,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       title: 'Tienda Oficial de Insumos en La Lisa',
       subtitle: 'Venta directa en mostrador de lubricantes Repsol Leader y Giant, baterías JET JEX95D y filtros',
       slogan: 'Stock de fluidos y piezas en tienda',
-      image: '/assets/facility/fkr-tienda-interior.jpg',
+      image: asset('/assets/facility/fkr-tienda-interior.jpg'),
       badge: 'TIENDA EN LA LISA',
     },
     {
@@ -58,7 +58,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       title: 'Flota de Transporte y Logística Propia',
       subtitle: 'Medios especializados de transporte para maniobras y entregas seguras en toda La Habana',
       slogan: 'Capacidad operativa directa y logística adaptada a cada cliente',
-      image: '/assets/facility/fkr-truck-loading-crane.jpg',
+      image: asset('/assets/facility/fkr-truck-loading-crane.jpg'),
       badge: 'LOGÍSTICA PROPIA',
     },
     {
@@ -66,7 +66,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       title: 'Ingeniería en Terreno y Montaje en Altura',
       subtitle: 'Cuadrilla técnica capacitada en conexionado, cuadros ATS y puesta en marcha con carga',
       slogan: 'Rigor técnico y garantía postventa en Cuba',
-      image: '/assets/facility/fkr-team-rooftop.jpg',
+      image: asset('/assets/facility/fkr-team-rooftop.jpg'),
       badge: 'INGENIERÍA Y MONTAJE',
     },
   ];
@@ -98,7 +98,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       category: 'LUBRICANTES REPSOL',
       title: 'Aceites Repsol Heavy Duty & Leader Neo',
       desc: 'Formulados específicamente para motores diesel de generadores sometidos a regímenes continuos de trabajo severo en el clima de Cuba.',
-      image: '/assets/products/repsol-leader-neo-5w30.jpg',
+      image: asset('/assets/products/repsol-leader-neo-5w30.jpg'),
       specs: ['Grado 5W-30 & 15W-40', 'Protección anti-desgaste y control de hollín', 'Envases sellados originales de fábrica'],
       whatsappText: 'Hola FKR SURL, deseo consultar precio y disponibilidad de aceites Repsol en la tienda de La Lisa.',
     },
@@ -107,7 +107,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       category: 'FILTRACIÓN INDUSTRIAL',
       title: 'Filtros Originales de Aceite, Combustible y Aire',
       desc: 'Cartuchos y filtros de alto rendimiento para retención de impurezas y partículas de azufre, asegurando la vida útil de bombas e inyectores.',
-      image: '/assets/facility/fkr-tienda-interior.jpg',
+      image: asset('/assets/facility/fkr-tienda-interior.jpg'),
       specs: ['Filtros de combustible con separador de agua', 'Filtros de aceite de flujo total', 'Filtros de aire de alta capacidad'],
       whatsappText: 'Hola FKR SURL, deseo consultar stock de filtros para generadores en su tienda de La Lisa.',
     },
@@ -116,7 +116,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
       category: 'ARRANQUE Y ACUMULACIÓN',
       title: 'Baterías JET JEX95D Libre de Mantenimiento',
       desc: 'Baterías de 12V 95Ah con 710A CCA de corriente de arranque en frío y 150 min de reserva para generadores y vehículos.',
-      image: '/assets/products/bateria-jet-960x720.webp',
+      image: asset('/assets/products/bateria-jet-960x720.webp'),
       specs: ['12V / 95Ah C20 (25°C)', '710A CCA (-18°C) corriente de arranque', '150 min reserva · Rango 13.8V-14.5V', 'Libre de mantenimiento · ISO 9001'],
       whatsappText: 'Hola FKR SURL, deseo consultar disponibilidad de la batería JET JEX95D (12V 95Ah) en la tienda de La Lisa.',
     },
@@ -167,7 +167,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
                     alt={slide.title}
                     className="w-full h-full object-cover object-center"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                      (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                     }}
                   />
                   
@@ -367,7 +367,7 @@ export const Company: React.FC<CompanyProps> = ({ content, navigate }) => {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                      (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                     }}
                   />
                   <div className="absolute inset-0 bg-[#000000]/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">

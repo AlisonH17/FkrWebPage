@@ -36,7 +36,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+            (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
           }}
         />
 

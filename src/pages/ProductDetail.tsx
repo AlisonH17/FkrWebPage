@@ -132,7 +132,7 @@ export const ProductDetail: React.FC<ProductDetailProps> = ({
                 alt={productName}
                 className="w-full h-full object-contain transition-all duration-300"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                  (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                 }}
               />
 

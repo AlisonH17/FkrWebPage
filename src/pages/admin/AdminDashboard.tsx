@@ -159,7 +159,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
                           alt=""
                           className="w-full h-full object-contain"
                           onError={(e) => {
-                            (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                            (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                           }}
                         />
                       </div>

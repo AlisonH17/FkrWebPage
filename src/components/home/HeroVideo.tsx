@@ -44,8 +44,8 @@ export const HeroVideo: React.FC<HeroVideoProps> = ({ navigate }) => {
         
         <video
           ref={videoRef}
-          src="/assets/video/fkr_logo.mp4"
-          poster="/assets/video/fkr-hero-poster.jpg"
+          src={asset('/assets/video/fkr_logo.mp4')}
+          poster={asset('/assets/video/fkr-hero-poster.jpg')}
           autoPlay
           muted
           playsInline

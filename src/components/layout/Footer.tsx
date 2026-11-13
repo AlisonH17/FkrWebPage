@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-[#222931] border border-[#414D5C] flex items-center justify-center p-2 shadow-xs">
                 <img 
-                  src="/assets/logo/logo.png" 
+                  src={asset('/assets/logo/logo.png')} 
                   alt="FKR Logo" 
                   className="w-full h-auto max-h-8 object-contain"
                 />
@@ -148,7 +148,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
                 className="flex items-center gap-3 text-[#D1D5DB] hover:text-[#E1306C] transition-colors group"
               >
                 <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                  <img src="/assets/icons/instagram.png" alt="Instagram" className="w-7 h-7 object-contain" />
+                  <img src={asset('/assets/icons/instagram.png')} alt="Instagram" className="w-7 h-7 object-contain" />
                 </div>
                 <span className="font-semibold">@fkr_energia_surl</span>
               </a>
@@ -160,7 +160,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
                 className="flex items-center gap-3 text-[#D1D5DB] hover:text-[#1877F2] transition-colors group"
               >
                 <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                  <img src="/assets/icons/facebook.png" alt="Facebook" className="w-7 h-7 object-contain" />
+                  <img src={asset('/assets/icons/facebook.png')} alt="Facebook" className="w-7 h-7 object-contain" />
                 </div>
                 <span className="font-semibold">FKR Energía SURL</span>
               </a>
@@ -170,7 +170,7 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
                 className="flex items-center gap-3 text-[#D1D5DB] hover:text-[#D20A11] transition-colors group"
               >
                 <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                  <img src="/assets/icons/email.png" alt="Email" className="w-7 h-7 object-contain" />
+                  <img src={asset('/assets/icons/email.png')} alt="Email" className="w-7 h-7 object-contain" />
                 </div>
                 <span className="font-semibold">contacto@fkr.cu</span>
               </a>

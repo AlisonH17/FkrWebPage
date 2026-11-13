@@ -17,7 +17,7 @@ export const SolutionsGrid: React.FC<SolutionsGridProps> = ({ categories, naviga
       id: 'panel-generadores',
       title: 'Grupos Electrógenos Diésel',
       subtitle: 'Plantas eléctricas insonorizadas para respaldo continuo residencial, comercial e industrial en Cuba.',
-      image: '/assets/solutions/sol-generadores-720x540.webp',
+      image: asset('/assets/solutions/sol-generadores-720x540.webp'),
       link: '/catalogo?category=cat-generadores',
       actionText: 'Ver generadores',
     },
@@ -25,7 +25,7 @@ export const SolutionsGrid: React.FC<SolutionsGridProps> = ({ categories, naviga
       id: 'panel-solar',
       title: 'Sistemas Solares Fotovoltaicos',
       subtitle: 'Inversores híbridos y módulos de acumulación con baterías de litio para respaldo y autonomía.',
-      image: '/assets/solutions/sol-solar-720x540.webp',
+      image: asset('/assets/solutions/sol-solar-720x540.webp'),
       link: '/catalogo?category=cat-solar',
       actionText: 'Ver sistemas solares',
     },
@@ -33,7 +33,7 @@ export const SolutionsGrid: React.FC<SolutionsGridProps> = ({ categories, naviga
       id: 'panel-baterias',
       title: 'Baterías y Repuestos',
       subtitle: 'Baterías JET JEX95D de 95Ah (710A CCA), lubricantes Repsol y repuestos para generadores.',
-      image: '/assets/solutions/sol-baterias-720x540.webp',
+      image: asset('/assets/solutions/sol-baterias-720x540.webp'),
       link: '/catalogo?category=cat-baterias',
       actionText: 'Ver baterías y repuestos',
     },
@@ -41,7 +41,7 @@ export const SolutionsGrid: React.FC<SolutionsGridProps> = ({ categories, naviga
       id: 'panel-transporte',
       title: 'Transporte e Instalación',
       subtitle: 'Logística y medios propios para izaje, traslado seguro y maniobras de montaje en toda La Habana.',
-      image: '/assets/solutions/sol-transporte-720x540.webp',
+      image: asset('/assets/solutions/sol-transporte-720x540.webp'),
       link: '/servicios?step=02',
       actionText: 'Conocer servicios técnicos',
     },
@@ -75,7 +75,7 @@ export const SolutionsGrid: React.FC<SolutionsGridProps> = ({ categories, naviga
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                      (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                     }}
                   />
                   {/* Red top line accent on hover */}

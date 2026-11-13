@@ -1,0 +1,98 @@
+ProductCard.tsx:34: src={product.primaryImage}
+ProductCard.tsx:39: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+ProductCard.tsx:104: href={whatsappInquiryUrl}
+HeroVideo.tsx:47: src={asset('/assets/video/fkr_logo.mp4')}
+HeroVideo.tsx:48: poster={asset('/assets/video/fkr-hero-poster.jpg')}
+IndustrialProof.tsx:36: src={asset('/assets/facility/fkr-team-rooftop.jpg')}
+IndustrialProof.tsx:68: src={asset('/assets/facility/fkr-truck-loading-crane.jpg')}
+IndustrialProof.tsx:91: src={asset('/assets/products/rosen-solar-inverter-system.jpg')}
+LocationMap.tsx:78: src={embedMapUrl}
+LocationMap.tsx:175: href={googleMapsUrl}
+LocationMap.tsx:185: href={directionsUrl}
+SolutionsGrid.tsx:20: image: asset('/assets/solutions/sol-generadores-720x540.webp'),
+SolutionsGrid.tsx:28: image: asset('/assets/solutions/sol-solar-720x540.webp'),
+SolutionsGrid.tsx:36: image: asset('/assets/solutions/sol-baterias-720x540.webp'),
+SolutionsGrid.tsx:44: image: asset('/assets/solutions/sol-transporte-720x540.webp'),
+SolutionsGrid.tsx:73: src={panel.image}
+SolutionsGrid.tsx:78: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+Footer.tsx:27: src={asset('/assets/logo/logo.png')}
+Footer.tsx:151: <img src={asset('/assets/icons/instagram.png')} alt="Instagram" className="w-7 h-7 object-contain" />
+Footer.tsx:163: <img src={asset('/assets/icons/facebook.png')} alt="Facebook" className="w-7 h-7 object-contain" />
+Footer.tsx:173: <img src={asset('/assets/icons/email.png')} alt="Email" className="w-7 h-7 object-contain" />
+Header.tsx:44: src={asset('/assets/logo/logo.png')}
+AdminCategories.tsx:25: const [image, setImage] = useState(asset('/assets/products/himoinsa-hsy25-960x720.webp'));
+AdminCategories.tsx:39: setImage(asset('/assets/products/himoinsa-hsy25-960x720.webp'));
+AdminCategories.tsx:167: src={c.image}
+AdminDashboard.tsx:158: src={p.primaryImage}
+AdminDashboard.tsx:162: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+AdminGallery.tsx:242: placeholder="/assets/facility/..."
+AdminGallery.tsx:250: src={previewUrl}
+AdminGallery.tsx:441: src={item.imageUrl}
+AdminProducts.tsx:39: const [primaryImage, setPrimaryImage] = useState(asset('/assets/products/himoinsa-hsy25-forklift.jpg'));
+AdminProducts.tsx:60: setPrimaryImage(asset('/assets/products/himoinsa-hsy25-forklift.jpg'));
+AdminProducts.tsx:61: setTechnicalSheetUrl(asset('/assets/specs/HIMOINSA-HSY25-Ficha-Tecnica.pdf'));
+AdminProducts.tsx:133: const res = await fetch('/api/upload', {
+AdminProducts.tsx:305: src={p.primaryImage}
+AdminProducts.tsx:309: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+AdminProducts.tsx:415: src={primaryImage}
+AdminProducts.tsx:419: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+Company.tsx:45: image: asset('/assets/facility/fkr-sede-la-lisa.jpg'),
+Company.tsx:53: image: asset('/assets/facility/fkr-tienda-interior.jpg'),
+Company.tsx:61: image: asset('/assets/facility/fkr-truck-loading-crane.jpg'),
+Company.tsx:69: image: asset('/assets/facility/fkr-team-rooftop.jpg'),
+Company.tsx:101: image: asset('/assets/products/repsol-leader-neo-5w30.jpg'),
+Company.tsx:110: image: asset('/assets/facility/fkr-tienda-interior.jpg'),
+Company.tsx:119: image: asset('/assets/products/bateria-jet-960x720.webp'),
+Company.tsx:166: src={slide.image}
+Company.tsx:170: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+Company.tsx:257: src={item.image}
+Company.tsx:288: href={`https://wa.me/5350998801?text=${encodeURIComponent(item.whatsappText)}`}
+Company.tsx:365: src={item.imageUrl}
+Company.tsx:370: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+Company.tsx:416: src={selectedGalleryItem.imageUrl}
+Company.tsx:432: href={`https://wa.me/5350998801?text=${encodeURIComponent(
+Contact.tsx:72: src={embedMapUrl}
+Contact.tsx:111: href={googleMapsUrl}
+Contact.tsx:121: href={directionsUrl}
+Contact.tsx:177: src={asset('/assets/icons/instagram.png')}
+Contact.tsx:212: src={asset('/assets/icons/facebook.png')}
+Contact.tsx:245: src={asset('/assets/icons/email.png')}
+ProductDetail.tsx:131: src={currentImage}
+ProductDetail.tsx:135: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+ProductDetail.tsx:169: src={img}
+ProductDetail.tsx:223: href={whatsappInquiryUrl}
+Services.tsx:135: image: asset('/assets/facility/fkr-truck-loading-crane.jpg'),
+Services.tsx:142: image: asset('/assets/facility/fkr-team-rooftop.jpg'),
+Services.tsx:149: image: asset('/assets/facility/fkr-engine-hoist.jpg'),
+Services.tsx:156: image: asset('/assets/facility/fkr-sede-la-lisa.jpg'),
+Services.tsx:163: image: asset('/assets/products/rosen-solar-inverter-system.jpg'),
+Services.tsx:170: image: asset('/assets/facility/fkr-tienda-interior.jpg'),
+Services.tsx:393: src={item.image}
+Services.tsx:398: (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
+Services.tsx:447: src={selectedGalleryImage.image}
+api.ts:5: // Lee datos estáticos de /data/ cuando no hay servidor (por ejemplo, en Netlify)
+api.ts:8: const res = await fetch(`/data/${file}`);
+api.ts:25: const res = await fetch(`${API_BASE}/products?${searchParams.toString()}`);
+api.ts:29: // Sin servidor: lee /data/products.json y aplica los filtros en el navegador
+api.ts:58: const res = await fetch(`${API_BASE}/products/${slug}`);
+api.ts:68: const res = await fetch(`${API_BASE}/products`, {
+api.ts:78: const res = await fetch(`${API_BASE}/products/${id}`, {
+api.ts:88: const res = await fetch(`${API_BASE}/products/${id}`, {
+api.ts:98: const res = await fetch(`${API_BASE}/categories`);
+api.ts:109: const res = await fetch(`${API_BASE}/categories`, {
+api.ts:119: const res = await fetch(`${API_BASE}/categories/${id}`, {
+api.ts:129: const res = await fetch(`${API_BASE}/categories/${id}`, {
+api.ts:142: const res = await fetch(`${API_BASE}/content`);
+api.ts:155: const res = await fetch(`${API_BASE}/content`, {
+api.ts:167: const res = await fetch(`${API_BASE}/inquiries`);
+api.ts:176: const res = await fetch(`${API_BASE}/inquiries`, {
+api.ts:186: const res = await fetch(`${API_BASE}/inquiries/${id}`, {
+api.ts:198: const res = await fetch(`${API_BASE}/stats`);
+api.ts:222: const res = await fetch(`${API_BASE}/company-gallery`);
+api.ts:226: // Sin servidor: lee /data/company-gallery.json y ordena por "order"
+api.ts:233: const res = await fetch(`${API_BASE}/company-gallery`, {
+api.ts:243: const res = await fetch(`${API_BASE}/company-gallery/reorder`, {
+api.ts:253: const res = await fetch(`${API_BASE}/company-gallery/${id}`, {
+api.ts:263: const res = await fetch(`${API_BASE}/company-gallery/${id}`, {
+api.ts:277: const res = await fetch(`${API_BASE}/upload`, {
+api.ts:300: const res = await fetch(`${API_BASE}/auth/login`, {

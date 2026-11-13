@@ -132,42 +132,42 @@ export const Services: React.FC<ServicesProps> = ({ content, navigate, initialSt
       id: 'srv-gal-1',
       title: 'Transporte y Logística Especializada',
       subtitle: 'Medios propios de FKR para maniobras complejas y traslados seguros en La Habana',
-      image: '/assets/facility/fkr-truck-loading-crane.jpg',
+      image: asset('/assets/facility/fkr-truck-loading-crane.jpg'),
       stage: '02. Transporte & 03. Montaje',
     },
     {
       id: 'srv-gal-2',
       title: 'Instalación en Azotea por Cuadrilla Técnica',
       subtitle: 'Técnicos certificados realizando conexionado y verificación electromecánica',
-      image: '/assets/facility/fkr-team-rooftop.jpg',
+      image: asset('/assets/facility/fkr-team-rooftop.jpg'),
       stage: '03. Montaje & 04. Instalación',
     },
     {
       id: 'srv-gal-3',
       title: 'Montaje Mecánico y Elevación de Equipos',
       subtitle: 'Elevación y posicionamiento seguro de plantas eléctricas con equipo calificado',
-      image: '/assets/facility/fkr-engine-hoist.jpg',
+      image: asset('/assets/facility/fkr-engine-hoist.jpg'),
       stage: '03. Montaje',
     },
     {
       id: 'srv-gal-4',
       title: 'Preparación de Flota HIMOINSA en Sede Central',
       subtitle: 'Inspección previa, calibración y pruebas de carga antes del despacho',
-      image: '/assets/facility/fkr-sede-la-lisa.jpg',
+      image: asset('/assets/facility/fkr-sede-la-lisa.jpg'),
       stage: '01. Estudio & Despacho',
     },
     {
       id: 'srv-gal-5',
       title: 'Instalación de Sistemas Solares ROSEN',
       subtitle: 'Montaje de inversores híbridos inteligentes y bancos de baterías de litio',
-      image: '/assets/products/rosen-solar-inverter-system.jpg',
+      image: asset('/assets/products/rosen-solar-inverter-system.jpg'),
       stage: '04. Instalación Solar',
     },
     {
       id: 'srv-gal-6',
       title: 'Tienda de Repuestos y Sede en La Lisa',
       subtitle: 'Stock permanente de lubricantes Repsol, filtros y baterías para mantenimiento',
-      image: '/assets/facility/fkr-tienda-interior.jpg',
+      image: asset('/assets/facility/fkr-tienda-interior.jpg'),
       stage: '06. Mantenimiento & Repuestos',
     },
   ];
@@ -395,7 +395,7 @@ export const Services: React.FC<ServicesProps> = ({ content, navigate, initialSt
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/facility/fkr-gigantografia.png';
+                      (e.target as HTMLImageElement).src = asset('/assets/facility/fkr-gigantografia.png');
                     }}
                   />
                   <span className="absolute top-3 left-3 bg-[#2C353F]/90 text-white text-[11px] font-mono px-2.5 py-1 tracking-wider uppercase backdrop-blur-xs">

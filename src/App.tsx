@@ -26,9 +26,17 @@ import { AdminGallery } from './pages/admin/AdminGallery';
 import { api } from './services/api';
 import { Product, Category, SiteContent, DashboardStats } from './types';
 
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const readPath = () => {
+  let p = window.location.pathname || '/';
+  if (BASE && p.startsWith(BASE)) p = p.slice(BASE.length) || '/';
+  return p + (window.location.search || '');
+};
+
 function MainApp() {
   const [currentPath, setCurrentPath] = useState<string>(() => {
-    return (window.location.pathname || '/') + (window.location.search || '');
+    return readPath();
   });
   const [products, setProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
@@ -45,7 +53,7 @@ function MainApp() {
 
   // Synchronize browser history and path changes
   const navigate = (path: string) => {
-    window.history.pushState({}, '', path);
+    window.history.pushState({}, '', BASE + path)
     setCurrentPath(path);
     if (!path.includes('step=')) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -54,7 +62,7 @@ function MainApp() {
 
   useEffect(() => {
     const handlePopState = () => {
-      setCurrentPath((window.location.pathname || '/') + (window.location.search || ''));
+      setCurrentPath(readPath());
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
